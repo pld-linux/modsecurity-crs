@@ -5,12 +5,12 @@
 Summary:	OWASP Core Rule Set (CRS) for ModSecurity-compatible WAF engines
 Summary(pl.UTF-8):	Zestaw reguł OWASP CRS dla silników WAF zgodnych z ModSecurity
 Name:		modsecurity-crs
-Version:	4.29.0
+Version:	4.30.0
 Release:	1
 License:	Apache v2.0
 Group:		Networking/Daemons/HTTP
 Source0:	https://github.com/coreruleset/coreruleset/archive/v%{version}/coreruleset-%{version}.tar.gz
-# Source0-md5:	ace69d8f32bc271e9b8e159ee8c46098
+# Source0-md5:	8a611e774ec674aac242e783d587243e
 URL:		https://coreruleset.org/
 %if %{with tests}
 # for modsec-rules-check
